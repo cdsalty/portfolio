@@ -1,0 +1,60 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(94, 51, 4, 0.927);
+    font-family: 'Nunito';
+    overflow: hidden;
+    
+}
+
+.navbar-brand{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 26px;
+    color: blue !important;
+}
+
+.nav-link{
+    font-size: 18px;
+    padding: 0px; 
+    margin: 14px;
+    color: black !important;
+    font-family: 'Nunito';
+}
+
+
+.nav-link:hover{
+    color: blue !important;
+}
+/* .active .nav-link{
+    color: blue !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Bootstrap 4 Breakpoints:
+
+Extra Small (xs) less than 576px
+@media (min-width: 576px){...}
+
+Small       (sm) 576px and up
+@media (min-width: 576px){...}
+
+Medium      (md) 768px and up
+
+Large
+
+Extra Large (xl) 1200px and up
+*/
