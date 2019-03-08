@@ -6,24 +6,29 @@ body {
     overflow: hidden;
     
 }
-
+.veryTop{
+    background-color: black !important;
+}
 .navbar-brand{
     font-family: 'Fredericka the Great', cursive;
     font-size: 26px;
-    color: blue !important;
+    /* color: blue !important; */
 }
 
 .nav-link{
     font-size: 18px;
     padding: 0px; 
     margin: 14px;
-    color: black !important;
+    color: white !important;
     font-family: 'Nunito';
 }
 
 
 .nav-link:hover{
-    color: blue !important;
+    /* border-radius: 75%;
+    background-color: yellow;
+    transition: all 250ms ease-in; */
+    color: gray !important;
 }
 /* .active .nav-link{
     color: blue !important;
