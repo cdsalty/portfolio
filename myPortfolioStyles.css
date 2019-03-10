@@ -20,7 +20,7 @@ body {
     padding: 0px; 
     margin: 14px;
     color: white !important;
-    font-family: 'Nunito';
+    font-family: 'Nunito',;
 }
 
 
@@ -34,9 +34,30 @@ body {
     color: blue !important;
 } */
 
+#portfolio-gallery{
+    margin: 75px 0px;
+}
 
+/* PARALLAX */
+#parallax {
+    background: url(portImages/Styling/keyboard.png);
+    background-attachment: fixed;   /* we tell the background image to be fixed and to stay in it's place */
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*make sure it covers the whole section*/
+}
+.pageTransition {
+    padding: 40px 0px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
 
-
+#parallaxEffect {
+    height: 700px;
+    background-color: #21ddfb;
+}
 
 
 
