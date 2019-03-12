@@ -2,12 +2,12 @@ body {
     padding: 0%;
     margin: 0%;
     /* background-color: rgba(94, 51, 4, 0.927); */
-    background-color: black;
-    /* overflow: hidden;        Took off because it was preventing the overflow on bottom boxes */
+    background-color: #212a3e;
+    /* overflow: hidden;         */
     
 }
 .veryTop{
-    background-color: black !important;
+    background-color: #212a3e !important;
 }
 .navbar-brand{
     font-family: 'Fredericka the Great', cursive;
@@ -19,7 +19,7 @@ body {
     font-size: 18px;
     padding: 0px; 
     margin: 14px;
-    color: white !important;
+    color: #EEEEEC  !important;
     font-family: 'Nunito',;
 }
 
@@ -28,11 +28,30 @@ body {
     /* border-radius: 75%;
     background-color: yellow;
     transition: all 250ms ease-in; */
-    color: gray !important;
+    color: #5A442F !important;
 }
 /* .active .nav-link{
     color: blue !important;
 } */
+
+/* Jumbotron */
+
+.leadImage {
+    /* margin-bottom: 0px; */
+    padding: 0px;
+    max-width: 100%;
+    max-height: auto;
+    /* background-image: url('portImages/stockImages/developer2.jpg');     */
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: center; 
+    opacity: 0.9;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em; 
+}
+
+
+
 
 #portfolio-gallery{
     margin: 75px 0px;
@@ -56,7 +75,7 @@ body {
 
 #parallaxEffect {
     height: 700px;
-    background-color: #21ddfb;
+    background-color: #212a3e;
 }
 
 
