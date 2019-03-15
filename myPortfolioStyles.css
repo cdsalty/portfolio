@@ -75,6 +75,7 @@ body {
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
+    
 }
 .pageTransition {
     padding: 40px 0px;
@@ -84,10 +85,10 @@ body {
     font-family: 'Lato';
 }
 
-#parallaxEffect {
+/* #parallaxEffect {
     height: 700px;
     background-color: #212a3e;
-}
+} */
 
 
 
