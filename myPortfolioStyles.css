@@ -5,7 +5,7 @@ body {
     /* background-color: #212a3e; */
     background-color: gray;
     /* overflow: hidden;         */
-    
+    font-family: 'Nunito', 'Lato';
 }
 .veryTop{
     /* background-color: #212a3e !important; */
@@ -41,8 +41,7 @@ body {
     /* margin-top: 20px; */
     background-image: url("portImages/stockImages/wall.jpeg");
     background-size: cover;
-    /* max-height: auto; */
-    /* height: 300px; */
+    /* height: 700px; */
     opacity: 0.9;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em; 
@@ -63,14 +62,14 @@ body {
 /* PARALLAX */
 #parallax {
     background: url(portImages/Styling/keyboard.png);
-    background-attachment: fixed;   /* we tell the background image to be fixed and to stay in it's place */
+    background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
     min-height: 250px;
-    
-    
 }
+
+
 .pageTransition {
     /* padding: 40px 0px; */
     color: white;
@@ -91,15 +90,46 @@ body {
 
 .aboutTitle {
     font-size: 2rem;
+    /* color: white; */
 }
 
 .aboutDetails {
     font-weight: 100;
     font-size: 1rem;
     line-height: 2.1;
+    color: white;
 }
-
-
+/* PARALLAX */
+.secondPllx {
+    background: url(portImages/stockImages/typing.jpeg);
+    background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*make sure it covers the whole section*/
+    min-height: 250px;
+    opacity: 0.8;
+}
+.thirdPllx {
+    background: url(portImages/stockImages/contact.jpeg);
+    background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*make sure it covers the whole section*/
+    min-height: 250px;
+    opacity: 0.8;
+}
+/* .aboutContent {
+    margin-top: 75px;
+    margin-bottom: 75px;
+} */
+.footer {
+    display: d-flex;
+    background-color: gray;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px
+    
+}
 
 
 
