@@ -66,7 +66,7 @@ body {
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
-    min-height: 250px;
+    min-height: 280px;
 }
 
 
@@ -106,7 +106,7 @@ body {
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
-    min-height: 250px;
+    min-height: 280px;
     opacity: 0.8;
 }
 .thirdPllx {
@@ -115,7 +115,7 @@ body {
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
-    min-height: 250px;
+    max-height: 280px;
     opacity: 0.8;
 }
 /* .aboutContent {
@@ -123,12 +123,11 @@ body {
     margin-bottom: 75px;
 } */
 .footer {
-    display: d-flex;
-    background-color: gray;
+    /* position: sticky; */
+    /* display: d-flex; */
+    background-color: rgba(22, 22, 55, 0.886);
     color: white;
-    margin-top: 100px;
-    margin-bottom: 100px
-    
+    max-height: 375px;
 }
 
 
