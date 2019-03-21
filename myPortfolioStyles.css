@@ -42,21 +42,23 @@ body {
     background-image: url("portImages/stockImages/wall.jpeg");
     background-size: cover;
     /* height: 700px; */
+    font-size: "3rems";
     opacity: 0.9;
-    color: white;
+    color: black;
     text-shadow: black 0.3em 0.3em 0.3em; 
     padding-top: 22%;
+    padding-bottom: 17%;
 } 
 
 .myText {
     opacity: 0.9;
     color: black;
-    text-shadow: white 0.3em 0.3em 0.3em;
+    text-shadow: black 0.3em 0.3em 0.3em;
 }
 
 
 #portfolio-gallery{
-    margin: 75px 0px;
+    margin: 50px 0px
 }
 
 /* PARALLAX */
@@ -66,7 +68,7 @@ body {
     background-image: center;
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
-    min-height: 280px;
+    /* min-height: 280px; */
 }
 
 
