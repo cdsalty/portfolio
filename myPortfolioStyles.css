@@ -9,7 +9,7 @@ body {
 }
 .veryTop{
     /* background-color: #212a3e !important; */
-    background-color: gray !important;
+    background-color: #343A40 !important;
 }
 .navbar-brand{
     font-family: 'Fredericka the Great', cursive;
@@ -30,7 +30,7 @@ body {
     /* border-radius: 75%;
     background-color: yellow;
     transition: all 250ms ease-in; */
-    color: #5A442F !important;
+    color: rgb(12, 220, 36) !important;
 }
 /* .active .nav-link{
     color: blue !important;
@@ -128,11 +128,10 @@ body {
 .footer {
     /* position: sticky; */
     /* display: d-flex; */
-    background-color: rgba(22, 22, 55, 0.886);
+    background-color: #343A40;
     color: white;
     max-height: 375px;
 }
-
 
 
 
