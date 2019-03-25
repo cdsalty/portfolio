@@ -30,7 +30,7 @@
     /* border-radius: 75%;
     background-color: yellow;
     transition: all 250ms ease-in; */
-    color: rgb(193, 177, 58) !important;
+    color: rgb(230, 209, 46) !important;
 }
 /* .active .nav-link{
     color: blue !important;
@@ -42,7 +42,7 @@
     background-image: url("portImages/stockImages/wall.jpeg");
     background-size: cover;
     /* height: 700px; */
-    font-size: "3rems";
+    font-size: 3rems;
     opacity: 0.9;
     color: black;
     text-shadow: black 0.3em 0.3em 0.3em; 
@@ -53,7 +53,7 @@
 .myText {
     opacity: 0.9;
     color: black;
-    text-shadow: black 0.3em 0.3em 0.3em;
+    text-shadow: yellow 0.3em 0.3em 0.3em;
 }
 
 
@@ -120,6 +120,7 @@
     height: 50px;
     width: auto;
 }
+
 
 .thirdPllx {
     background: url(portImages/stockImages/contact.jpeg);
