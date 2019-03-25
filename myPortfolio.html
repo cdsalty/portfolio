@@ -30,13 +30,10 @@
       <!-- Create our tabs across the top; using ml-auto to move it to the Right -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a href="#" class="nav-link">Home</a>
+          <a href="#meSection" class="nav-link">About</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Languages</a>
+          <a href="#progLang" class="nav-link">Languages</a>
         </li>
         <li class="navbar-item">
           <a href="#contactMeSection" class="nav-link js-scroll-trigger">Contact</a>
@@ -65,7 +62,7 @@
         <!-- How our cards will display on different sized screens -->
         <div class="size-display col-md-6 col-xl-3 mb-4">
           <div class="card">
-            <img class="card-img-top" src="portImages/stockImages/iSaftey.png" alt="">
+            <img class="card-img-top iSafeImage" src="portImages/stockImages/iSaftey.png" alt="">
             <div class="card-body text-center">
               <!--This will control the text in the card -->
               <h5 class="cart-title">iSafety</h5>
@@ -135,8 +132,8 @@
   <section id="parallax">
     <div class="container">
       <div class="pageTransition text-center d-flex justify-content-center align-items-center red">
-        <h2>The only way to do great work is to love what you do<h2>
-        <footer class="blockquote-footer">Steve Jobs</footer>
+        <h2>The only way to do great work is to love what you do</h2>
+        <footer class="blockquote-footer ml-2">Steve Jobs</footer>
       </div>
     </div>
   </section>
@@ -145,7 +142,7 @@
  
 
 <!-- About Me (split page,) -->
-  <section class="container-fluid aboutMeSection px-0">
+  <section class="container-fluid aboutMeSection px-0" id="meSection">
     <!-- Row 1 -->
     <div class="row align-items-center my-0">
       <div class="col-md-6 order-2 order-md-1 p-0 d-none d-md-block">
@@ -168,8 +165,8 @@
   <!-- Fixed Image on Scroll; PARALLAX - Seperator -->
   <section class="parallax secondPllx">
     <div class="container">
-      <div class="pageTransition text-center d-flex justify-content-center align-items-center red">
-        <h2>Simple things should be simple, complex things should be possible.<h2>
+      <div class="pageTransition text-center d-flex justify-content-center align-items-center">
+        <h2>Simple things should be simple, complex things should be possible.</h2>
         <footer class="blockquote-footer">Alan Kay</footer>
       </div>
     </div>
@@ -177,33 +174,51 @@
   <!-- End of Parralax -->
 
 <!-- Row 2 -->
-  <section class="container-fluid aboutMeSection">
+  <section class="container-fluid aboutMeSection" id="progLang">
     <div class="row align-items-center">
       <div class="col-md-6 text-center">
-        <div class="row justify-content-center py-3">
+        <div class="row justify-content-center">
           <div class="col-4 my-5 my-md-0">
-              <i class="fab fa-html5 mb-2"></i>
-            <h5 class="mb-5">HTML</h5>
-            <i class="fab fa-css mb-2"></i>
-            <h5 class="mb-5">CSS</h5>
-            <i class="fab fa-js-square my-2"></i>
-            <h5 class="imageTitle">JavaScript</h5>
+            <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="portImages/icons/html.png">
+                <p class="mb-4">HTML</p>
+            </div>
+            <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="portImages/icons/css-min.png">
+                <p class="mb-4">CSS</p>
+            </div>
+            <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="portImages/icons/js-min.png">
+                <p class="mb-2">JavaScript</p>
+            </div>
           </div>
           <div class="col-4 my-5 my-md-0">
-            <i class="fab fa-bootstrap my-2"></i>
-            <h5 class="mb-5">BootStrap</h5>
-            <i class="fab fa-github my-2"></i>
-            <h5 class="mb-5">Github</h5>
-            <i class="fab fa-python my-2"></i>
-            <h5 class="mb-0">Python</h4>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/jquery-min.png">
+              <p class="mb-4">jQuery</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/bootstrap-min.png">
+              <p class="mb-4">BootStrap</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/aws-min.png">
+              <p class="mb-2">AWS</p>
+            </div>
           </div>
           <div class="col-4 my-5 my-md-0">
-            <i class="fab fa-node my-2"></i>
-            <h5 class="mb-5">NodeJS</h5>
-            <i class="fab fa-react my-2"></i>
-            <h5 class="mb-2">React</h5>
-            <img class="mysql" src="">
-            <h5 class="mb-2 mt-5">mySQL</h4>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/mysql-min.png">
+              <p class="mb-4">MySQL</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/node-min.png">
+              <p class="mb-4">Node</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/linux-min.png">
+              <p class="mb-2">Linux</p>
+            </div>
           </div>
         </div>
       </div>
@@ -215,11 +230,9 @@
   </section>
   
  <!-- Fixed Image on Scroll; PARALLAX - Seperator -->
- <section class="parallax thirdPllx" id="contactMeSection">
+ <section class="parallax thirdPllx d-none d-lg-block" id="contactMeSection">
   <div class="container img-fluid">
-    <div class="pageTransition text-center d-flex justify-content-center align-items-center red">
-      <!-- <h2>THE ONLY WAY TO DO GREAT WORK IS TO LOVE WHAT YOU DO<h2> -->
-      <!-- <footer class="blockquote-footer">Steve Jobs</footer> -->
+    <div class="pageTransition text-center d-flex justify-content-center align-items-center">
     </div>
   </div>
 </section>

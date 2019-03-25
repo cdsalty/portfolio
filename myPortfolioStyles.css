@@ -1,4 +1,4 @@
-body {
+* body {
     padding: 0%;
     margin: 0%;
     /* background-color: rgba(94, 51, 4, 0.927); */
@@ -58,8 +58,11 @@ body {
 
 
 #portfolio-gallery{
-    margin: 50px 0px
+    margin: 50px 0px;
 }
+
+/*  TESTING FOR IMAGES IN PORTFOLIO */
+
 
 /* PARALLAX */
 #parallax {
@@ -112,6 +115,12 @@ body {
     min-height: 280px;
     opacity: 0.8;
 }
+
+.techLogo{
+    height: 50px;
+    width: auto;
+}
+
 .thirdPllx {
     background: url(portImages/stockImages/contact.jpeg);
     background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
@@ -121,16 +130,18 @@ body {
     max-height: 280px;
     opacity: 0.8;
 }
+
 /* .aboutContent {
     margin-top: 75px;
     margin-bottom: 75px;
 } */
+
 .footer {
     /* position: sticky; */
     /* display: d-flex; */
     background-color: #343A40;
     color: white;
-    max-height: 375px;
+    max-height: 300px;
 }
 
 
