@@ -17,6 +17,12 @@
     /* color: blue !important; */
 }
 
+.myName:hover {
+    color: yellow !important;
+    /* text-shadow: yellow 0.2em 0.2em 0.2em;  */
+    transition: 3s;
+}
+
 .nav-link{
     font-size: 18px;
     padding: 0px; 
@@ -61,8 +67,19 @@
     margin: 50px 0px;
 }
 
+.shakBut:hover {
+    /* transform: rotate(3deg); */
+    opacity: 0.6;
+    transition: .5s;
+}
 /*  TESTING FOR IMAGES IN PORTFOLIO */
 
+
+.techLogo:hover {
+    transform: rotate(360deg);
+    opacity: 0.6;
+    transition: .3s;
+}
 
 /* PARALLAX */
 #parallax {
