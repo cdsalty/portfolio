@@ -50,7 +50,7 @@
     background-size: cover;
     /* height: 700px; */
     font-size: 3rems;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     color: black;
     /* color: rgb(159, 203, 0); */
     text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em; 
@@ -58,21 +58,44 @@
     padding-bottom: 17%;
 } 
 
+.jumbotron:hover {
+    opacity: 0.2;
+    transition: 25000ms;
+}
+
 .myText {
     opacity: 0.9;
     color: black;
     text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em;
 }
 
+.colorTitle {
+    font-family: 'Lato';
+    color: #343A40;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em;
+}
+.myButtonColor {
+    background-color: black;
+}
 
 #portfolio-gallery{
     margin: 50px 0px;
 }
-
+.shakBut {
+    font-size: 1.1rem;
+    font-family: 'Lato', 'Courier New', Courier;
+    border: 2px solid rgb(159, 203, 0);
+    border-radius: 12%;
+}
 .shakBut:hover {
-    /* transform: rotate(3deg); */
-    opacity: 0.6;
-    transition: .5s;
+    transform: rotate(2deg);
+    opacity: 0.8;
+    font-size: 1.2rem;
+    transition: .6s;
+    /* font-family: 'Nunito'; */
+    border: 3px solid rgb(159, 203, 0);
 }
 /*  TESTING FOR IMAGES IN PORTFOLIO */
 
@@ -109,7 +132,7 @@
 } */
 
 .aboutMePic {
-    opacity: 0.7;
+    opacity: 0.8;
     min-height: 500px;
     min-width: auto;
 }
@@ -158,6 +181,7 @@
 
 .tcolor {
     color: rgb(159, 203, 0);
+    font-weight: 100;
 }
 
 .thirdPllx {
@@ -167,12 +191,17 @@
     background-repeat: no-repeat;
     background-size: cover; /*make sure it covers the whole section*/
     max-height: 280px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .foote {
-    font-family: 'Lato', 'Nunito';
+    font-family: 'Nunito';
     color: rgb(159, 203, 0);
+    /* font-weight: 150%; */
+}
+
+.dividColor {
+    border: 2px solid rgb(159, 203, 0);
 }
 
 /*
