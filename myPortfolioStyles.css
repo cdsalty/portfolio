@@ -21,7 +21,7 @@
 .myName:hover {
     color: rgb(159, 203, 0) !important;
     /* text-shadow: yellow 0.2em 0.2em 0.2em;  */
-    transition: 3s;
+    transition: 1s;
 }
 
 .nav-link{
@@ -59,14 +59,18 @@
 } 
 
 .jumbotron:hover {
-    opacity: 0.2;
-    transition: 25000ms;
+    opacity: 0.3;
+    transition: 29000ms;
 }
 
 .myText {
     opacity: 0.9;
     color: black;
     text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em;
+}
+
+.btn {
+    text-shadow: none;
 }
 
 .colorTitle {
@@ -90,12 +94,12 @@
     border-radius: 12%;
 }
 .shakBut:hover {
-    transform: rotate(2deg);
-    opacity: 0.8;
+    transform: rotate(1deg);
     font-size: 1.2rem;
-    transition: .6s;
+    transition: .3s;
     /* font-family: 'Nunito'; */
     border: 3px solid rgb(159, 203, 0);
+    text-shadow: none;
 }
 /*  TESTING FOR IMAGES IN PORTFOLIO */
 
@@ -200,8 +204,12 @@
     /* font-weight: 150%; */
 }
 
+.contactDetails {
+    justify-content: space-around;
+}
+
 .dividColor {
-    border: 2px solid rgb(159, 203, 0);
+    border: 1px solid rgb(159, 203, 0);
 }
 
 /*
