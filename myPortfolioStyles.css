@@ -39,14 +39,11 @@
     transition: all 250ms ease-in; */
     color: white !important;
 }
-/* .active .nav-link{
-    color: blue !important;
-} */
 
 
 .jumbotron {
     /* margin-top: 20px; */
-    background-image: url("portImages/stockImages/wall.jpeg");
+    background-image: url("portImages/stockImages/wall-min.jpeg");
     background-size: cover;
     /* height: 700px; */
     font-size: 3rems;
@@ -107,12 +104,12 @@
 .techLogo:hover {
     transform: rotate(720deg);
     opacity: 0.6;
-    transition: .3s;
+    transition: .4s;
 }
 
 /* PARALLAX */
 #parallax {
-    background: url(portImages/Styling/keyboard.png);
+    background: url(portImages/stockImages/keyboard-min.png);
     background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
     background-image: center;
     background-repeat: no-repeat;
@@ -162,14 +159,14 @@
 
 .aboutDetails:hover {
     color: rgb(159, 203, 0) !important;
-    transition: 3s;
+    transition: 2s;
 }
 .btn{
     border-color: rgb(159, 203, 0);
 }
 /* PARALLAX */
 .secondPllx {
-    background: url(portImages/stockImages/typing.jpeg);
+    background: url(portImages/stockImages/typing-min.jpeg);
     background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
     background-image: center;
     background-repeat: no-repeat;
@@ -189,7 +186,7 @@
 }
 
 .thirdPllx {
-    background: url(portImages/stockImages/contact.jpeg);
+    background: url(portImages/stockImages/contact-min.jpeg);
     background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
     background-image: center;
     background-repeat: no-repeat;
@@ -206,6 +203,7 @@
 
 .contactDetails {
     justify-content: space-around;
+    font-family: 'Lato', 'Courier New'
 }
 
 .dividColor {
